@@ -36,7 +36,7 @@ class WebSpider
 =begin
 	input : spec ie h['href'] passed from method categories
 	output : nil
-	retrieves name of each category and stores in $ap, calls method categoryDetail
+	retrieves name of each category and stores in $ap and calls method categoryDetail
 =end  	
  	def eachCategory(spec)
  		@combine = "http://www.1mobile.com" + spec
