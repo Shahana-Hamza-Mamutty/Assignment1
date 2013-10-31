@@ -1,6 +1,6 @@
 class LogParser
 =begin
-	input : take_src
+input : take_src
 	output : @src
 	initializes the class when it is called 
 =end 	
